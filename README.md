@@ -1,2 +1,0 @@
-# asciidoc
-The Syntaxes
