@@ -86,7 +86,7 @@ Apply basic text formatting to emphasize and highlight content. AsciiDoc support
 
 **Example:**
 
-```asciidoc
+```
 *Italic Text*
 **Bold Text**
 `Monospace Text`
@@ -98,7 +98,7 @@ Create ordered and unordered lists to present information in a structured manner
 
 **Example:**
 
-```asciidoc
+```
 - Unordered Item 1
 - Unordered Item 2
 
@@ -120,7 +120,7 @@ Embed images to enhance visual content within your document.
 
 **Example:**
 
-```asciidoc
+```
 image::image.jpg[Alt Text]
 ```
 
@@ -134,7 +134,7 @@ Tables provide a structured way to present data. Use AsciiDoc's table syntax to 
 
 **Example:**
 
-```asciidoc
+```
 |===
 |Header 1 |Header 2 |Header 3
 
@@ -149,7 +149,7 @@ Use code blocks to display and highlight code snippets within your document.
 
 **Example:**
 
-```asciidoc
+```
 [source,language]
 ----
 // Your code here
@@ -165,7 +165,7 @@ Admonitions provide a way to emphasize content or provide additional information
 
 **Example:**
 
-```asciidoc
+```
 [TIP]
 ====
 This is a helpful tip for your readers.
@@ -176,7 +176,7 @@ This is a helpful tip for your readers.
 
 **Example:**
 
-```asciidoc
+```
 Here is some text[^1].
 
 [^1]: This is the footnote content.
@@ -192,7 +192,7 @@ Define metadata and settings at the beginning of your document to provide crucia
 
 **Example:**
 
-```asciidoc
+```
 = Document Title
 :author: Your Name
 :date: 2024-01-01
@@ -202,7 +202,7 @@ Define metadata and settings at the beginning of your document to provide crucia
 
 **Example:**
 
-```asciidoc
+```
 == Section 1
 This is the content of Section 1.
 
@@ -214,7 +214,7 @@ Content of Section 2.
 
 **Example:**
 
-```asciidoc
+```
 include::path/to/external/file.adoc[]
 ```
 
@@ -228,7 +228,7 @@ Apply styles to control the visual presentation of elements in your document.
 
 **Example:**
 
-```asciidoc
+```
 [source,asciidoc]
 ----
 This is styled text.
@@ -239,7 +239,7 @@ This is styled text.
 
 **Example:**
 
-```asciidoc
+```
 :doctype: book
 :icons: font
 
@@ -248,7 +248,7 @@ This is styled text.
 
 **Example:**
 
-```asciidoc
+```
 = Document Title
 :author: Your Name
 :date: 2024-01-01
@@ -264,7 +264,7 @@ Leverage GitHub Flavored AsciiDoc for rendering AsciiDoc files directly on GitHu
 
 **Example:**
 
-```asciidoc
+```
 .GitHub Flavored AsciiDoc
 ====
 This content is GitHub Flavored AsciiDoc.
@@ -275,7 +275,7 @@ This content is GitHub Flavored AsciiDoc.
 
 **Example:**
 
-```asciidoc
+```
 :backend: docbook
 ```
 
@@ -289,7 +289,7 @@ Adopt a consistent naming convention for files, sections, and elements within yo
 
 **Example:**
 
-```asciidoc
+```
 // Consistent file naming
 include::chapter-1.adoc[]
 
@@ -301,7 +301,7 @@ Content of the section.
 
 **Example:**
 
-```bash
+```
 git commit -m "Updated documentation"
 ```
 
@@ -309,7 +309,7 @@ git commit -m "Updated documentation"
 
 **Example:**
 
-```asciidoc
+```
 // Collaborative comment
 // Author: Collaborator1
 // Review: Address formatting issues
