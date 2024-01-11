@@ -42,9 +42,7 @@ Welcome to the AsciiDoc Quick Reference, a guide for mastering AsciiDoc markup.
 
 AsciiDoc doesn't require specific installation. Use any text editor. For enhanced features, consider tools like AsciiDoctor.
 
-```bash
 # Install AsciiDoctor on Linux
-sudo gem install asciidoctor
 
 ## 1. Installation <a name="installation"></a>
 
@@ -74,9 +72,6 @@ By using dedicated editors, you gain access to features like syntax highlighting
 
 If you prefer working from the command line, you can use the AsciiDoctor tool to process AsciiDoc files and generate various output formats. Follow these steps to install AsciiDoctor on a Linux system:
 
-```bash
-sudo gem install asciidoctor
-
 ### 1.4 Online Editors <a name="online-editors"></a>
 
 Several online platforms offer AsciiDoc editing capabilities directly in your web browser. Explore options like [Asciidoctor.js Live Preview](https://asciidoctor.org/playground/asciidoc-js-live-preview/).
@@ -84,9 +79,6 @@ Several online platforms offer AsciiDoc editing capabilities directly in your we
 Choose an online editor based on your preference for web-based editing. These platforms provide a convenient way to work with AsciiDoc without the need for local installations. Begin creating and previewing your AsciiDoc documents seamlessly.
 
 If you prefer the command line, use the AsciiDoctor tool. Install it on a Linux system with:
-
-```bash
-sudo gem install asciidoctor
 
 ### 2.2 Text Formatting <a name="text-formatting"></a>
 
@@ -98,6 +90,7 @@ Apply basic text formatting to emphasize and highlight content. AsciiDoc support
 *Italic Text*
 **Bold Text**
 `Monospace Text`
+```
 
 ### 2.3 Lists <a name="lists"></a>
 
@@ -111,6 +104,7 @@ Create ordered and unordered lists to present information in a structured manner
 
 1. Ordered Item 1
 2. Ordered Item 2
+```
 
 ### 2.4 Links <a name="links"></a>
 
@@ -118,7 +112,6 @@ Insert hyperlinks to reference external resources or navigate within the documen
 
 **Example:**
 
-```asciidoc
 Link to [AsciiDoc Official Site](http://asciidoc.org)
 
 ### 2.5 Images <a name="images"></a>
@@ -129,6 +122,7 @@ Embed images to enhance visual content within your document.
 
 ```asciidoc
 image::image.jpg[Alt Text]
+```
 
 ## 3. Advanced Features <a name="advanced-features"></a>
 
@@ -147,6 +141,7 @@ Tables provide a structured way to present data. Use AsciiDoc's table syntax to 
 |Row 1, Col 1 |Row 1, Col 2 |Row 1, Col 3
 |Row 2, Col 1 |Row 2, Col 2 |Row 2, Col 3
 |===
+```
 
 ### 3.2 Code Blocks <a name="code-blocks"></a>
 
@@ -162,6 +157,7 @@ function example() {
   return "Hello, AsciiDoc!";
 }
 ----
+```
 
 ### 3.3 Admonitions <a name="admonitions"></a>
 
@@ -174,6 +170,7 @@ Admonitions provide a way to emphasize content or provide additional information
 ====
 This is a helpful tip for your readers.
 ====
+```
 
 ### 3.4 Footnotes <a name="footnotes"></a>
 
@@ -183,6 +180,7 @@ This is a helpful tip for your readers.
 Here is some text[^1].
 
 [^1]: This is the footnote content.
+```
 
 ## 4. Document Structure <a name="document-structure"></a>
 
@@ -198,6 +196,7 @@ Define metadata and settings at the beginning of your document to provide crucia
 = Document Title
 :author: Your Name
 :date: 2024-01-01
+```
 
 ### 4.2 Sections <a name="sections"></a>
 
@@ -209,6 +208,7 @@ This is the content of Section 1.
 
 == Section 2
 Content of Section 2.
+```
 
 ### 4.3 Includes <a name="includes"></a>
 
@@ -216,6 +216,7 @@ Content of Section 2.
 
 ```asciidoc
 include::path/to/external/file.adoc[]
+```
 
 ## 5. Customization <a name="customization"></a>
 
@@ -234,6 +235,7 @@ This is styled text.
 :style: emphasized
 ----
 ### 5.2 Attributes <a name="attributes"></a>
+```
 
 **Example:**
 
@@ -242,6 +244,7 @@ This is styled text.
 :icons: font
 
 ### 5.3 Document Header <a name="document-header"></a>
+```
 
 **Example:**
 
@@ -249,6 +252,7 @@ This is styled text.
 = Document Title
 :author: Your Name
 :date: 2024-01-01
+```
 
 ## 6. Integration with Other Tools <a name="integration-with-other-tools"></a>
 
@@ -265,6 +269,7 @@ Leverage GitHub Flavored AsciiDoc for rendering AsciiDoc files directly on GitHu
 ====
 This content is GitHub Flavored AsciiDoc.
 ====
+```
 
 ### 6.2 DocBook Conversion <a name="docbook-conversion"></a>
 
@@ -272,6 +277,7 @@ This content is GitHub Flavored AsciiDoc.
 
 ```asciidoc
 :backend: docbook
+```
 
 ## 7. Best Practices <a name="best-practices"></a>
 
@@ -289,6 +295,7 @@ include::chapter-1.adoc[]
 
 == Section Title
 Content of the section.
+```
 
 ### 7.2 Version Control <a name="version-control"></a>
 
@@ -296,6 +303,7 @@ Content of the section.
 
 ```bash
 git commit -m "Updated documentation"
+```
 
 ### 7.3 Collaborative Writing <a name="collaborative-writing"></a>
 
@@ -305,6 +313,7 @@ git commit -m "Updated documentation"
 // Collaborative comment
 // Author: Collaborator1
 // Review: Address formatting issues
+```
 
 ## 8. Resources <a name="resources"></a>
 
